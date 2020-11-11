@@ -35,7 +35,7 @@ app.use(function(req, res, next){
   next();
 });
 
-mongoose.connect("mongodb://localhost:27017/quiz", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin:N7GeBK02Q6xS1onj@quizportal.twjxs.mongodb.net/QuizPortal?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 passport.use(User.createStrategy());
 passport.serializeUser(function(user, done) {
   done(null, user.id);

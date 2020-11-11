@@ -6,6 +6,5 @@ Participant 2 --  Rewangi Taragi <br>
 
 TO CREATE QUIZ <br>
 
-![image](https://github.com/Akp6528/Theme/blob/main/q1.PNG)
 
 
